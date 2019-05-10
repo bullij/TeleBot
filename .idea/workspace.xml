@@ -172,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557518424928</updated>
       <workItem from="1557518428271" duration="2648000" />
-      <workItem from="1557521329377" duration="2390000" />
+      <workItem from="1557521329377" duration="2956000" />
     </task>
     <task id="LOCAL-00001" summary="Procfile first try">
       <created>1557524669330</created>
@@ -185,7 +185,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5038000" />
+    <option name="totallyTimeSpent" value="5604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -213,13 +213,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
