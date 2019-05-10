@@ -1,1 +1,1 @@
-worker: sh src/java/Bot.java
+worker: java src/java/Bot.java
