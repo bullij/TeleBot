@@ -1,1 +1,1 @@
-web: java -cp src/java/Bot
+web: java -jar  out/artifacts/TeleBot_jar/TeleBot.jar
