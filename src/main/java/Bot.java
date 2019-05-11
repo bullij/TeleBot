@@ -19,8 +19,6 @@ public class Bot extends TelegramLongPollingBot {
         catch (TelegramApiException e) {
             e.printStackTrace();
         }
-
-
     }
 
     public void onUpdateReceived(Update update) {

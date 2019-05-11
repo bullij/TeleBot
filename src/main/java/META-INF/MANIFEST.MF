@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
+Class-Path: /Users/GK/IdeaProjects/TeleBot/src/main/java/Bot.class
 Main-Class: Bot
 
