@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="TeleBot:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="7312e521-b0bf-4e61-a900-235061e23599" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TeleBot_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+>>>>>>> parent of 4d3d388... 11
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +30,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bot.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="166">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+=======
+            <state relative-caret-position="165">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+>>>>>>> parent of 4d3d388... 11
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +60,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+=======
+>>>>>>> parent of 4d3d388... 11
         <option value="$PROJECT_DIR$/src/main/java/Bot.java" />
       </list>
     </option>
@@ -66,10 +76,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1280" />
-    <option name="height" value="710" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -77,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,6 +110,7 @@
               <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="artifacts" type="462c0819:PsiDirectoryNode" />
               <item name="TeleBot_jar" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
             </path>
             <path>
               <item name="TeleBot" type="b2602c69:ProjectViewProjectNode" />
@@ -120,6 +129,8 @@
               <item name="TeleBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="TeleBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> parent of 4d3d388... 11
             </path>
             <path>
               <item name="TeleBot" type="b2602c69:ProjectViewProjectNode" />
@@ -147,6 +158,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,7 +168,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
+<<<<<<< HEAD
     <property name="project.structure.proportion" value="0.15" />
+=======
+    <property name="project.structure.proportion" value="0.0" />
+>>>>>>> parent of 4d3d388... 11
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -198,9 +214,13 @@
       <updated>1557518424928</updated>
       <workItem from="1557518428271" duration="2648000" />
       <workItem from="1557521329377" duration="3371000" />
+<<<<<<< HEAD
       <workItem from="1557574911912" duration="2636000" />
       <workItem from="1557587487329" duration="427000" />
       <workItem from="1557590159179" duration="3787000" />
+=======
+      <workItem from="1557574911912" duration="956000" />
+>>>>>>> parent of 4d3d388... 11
     </task>
     <task id="LOCAL-00001" summary="Procfile first try">
       <created>1557524669330</created>
@@ -213,7 +233,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="12869000" />
+=======
+    <option name="totallyTimeSpent" value="6975000" />
+>>>>>>> parent of 4d3d388... 11
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,7 +252,7 @@
     <frame x="0" y="22" width="1280" height="710" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.2657512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.2536349" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -237,18 +261,27 @@
       <window_info id="Favorites" order="6" sideWeight="0.5020408" side_tool="true" weight="0.2536349" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32847896" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+>>>>>>> parent of 4d3d388... 11
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32847896" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32847896" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32847896" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32847896" />
+=======
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32876712" />
+>>>>>>> parent of 4d3d388... 11
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32847896" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,6 +412,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots/4.2/telegrambots-4.2-sources.jar!/org/telegram/telegrambots/util/WebhookUtils.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -405,6 +439,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+>>>>>>> parent of 4d3d388... 11
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
