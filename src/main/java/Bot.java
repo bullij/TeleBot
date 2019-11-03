@@ -31,29 +31,39 @@ public class Bot extends TelegramLongPollingBot {
             String text = message.getText();
             if ("/help".equals(text)) {
                 try {
-                    execute(sendMessage.setText(message.getText() + "how can i help"));
+                    execute(sendMessage.setText(message.getText() + " how can i help"));
                 } catch (TelegramApiException e) {
                     e.printStackTrace();
                 }
             } else if ("/settings".equals(text)) {
                 try {
-                    execute(sendMessage.setText(message.getText() + "What are we going to customize?"));
+                    execute(sendMessage.setText(message.getText() + " What are we going to customize?"));
                 } catch (TelegramApiException e) {
                     e.printStackTrace();
                 }
             } else if ("/start".equals(text)){
                 try {
-                    execute(sendMessage.setText(message.getText() + "Asss"));
+                    execute(sendMessage.setText(message.getText() + " Asss"));
                 } catch (TelegramApiException e) {
                     e.printStackTrace();
                 }
 
+            }else {
+                try {
+                    execute(sendMessage.setText(rndchat(message.getText())));
+                } catch (TelegramApiException e) {
+                    e.printStackTrace();
+                }
             }
 
         }
 
     }
 
+    public String rndchat(String msg){
+        String m = msg + " - я не понимаю!!!(";
+        return m;
+    }
     public String getBotUsername() {
         return "marine1_bot";
     }
