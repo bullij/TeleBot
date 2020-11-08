@@ -5,6 +5,10 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import java.util.regex.Pattern;
 
 public class Bot extends TelegramLongPollingBot {
     public static void main(String[] args)
@@ -29,41 +33,37 @@ public class Bot extends TelegramLongPollingBot {
 
         if (message!=null && message.hasText()) {
             String text = message.getText();
-            if ("/help".equals(text)) {
-                try {
-                    execute(sendMessage.setText(message.getText() + " how can i help"));
-                } catch (TelegramApiException e) {
-                    e.printStackTrace();
-                }
-            } else if ("/settings".equals(text)) {
-                try {
-                    execute(sendMessage.setText(message.getText() + " What are we going to customize?"));
-                } catch (TelegramApiException e) {
-                    e.printStackTrace();
-                }
-            } else if ("/start".equals(text)){
-                try {
-                    execute(sendMessage.setText(message.getText() + " Asss"));
-                } catch (TelegramApiException e) {
-                    e.printStackTrace();
-                }
-
-            }else {
-                try {
-                    execute(sendMessage.setText(rndchat(message.getText())));
-                } catch (TelegramApiException e) {
-                    e.printStackTrace();
-                }
+            try {
+                execute(sendMessage.setText(text + " : " + getAnswer(text)));
+            } catch (TelegramApiException e) {
+                e.printStackTrace();
             }
-
         }
+    }
+    public String getAnswer(String msg){
+        String ans = "";
+        Pattern purl = Pattern.compile("(https://)?(www).+(ru)");
 
+        switch (msg){
+            case ("/start"):
+                 ans = "дратути";
+                break;
+            default:
+                if(purl.matcher(msg).find()){
+                    String url = purl.matcher(msg).toString();
+                    Document doc;
+                    doc = Jsoup.parse(url);
+                    String title = doc.title();
+                    ans = "уууу, сайтик про " + title + " )))";
+
+                }
+                else {
+                    ans = "я не понимаю!!!(";
+                }
+        }
+        return ans;
     }
 
-    public String rndchat(String msg){
-        String m = msg + " - я не понимаю!!!(";
-        return m;
-    }
     public String getBotUsername() {
         return "marine1_bot";
     }
